@@ -7,7 +7,7 @@ class shape:
 		print("Area ", self.__areaValue)
 		
 	def perimeter(self):
-		print("Perimeter ", self.__areaValue)
+		print("Perimeter ", self.__perimeterValue)
 		
 class rectangle(shape):
 	def __init__(self, length, width):
